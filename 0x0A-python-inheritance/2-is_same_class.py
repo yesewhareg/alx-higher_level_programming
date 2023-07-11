@@ -2,8 +2,8 @@
 """Defines a class-checking function."""
 
 
-def is_same_class(obj. a_class):
-    """Check if an object is exactly an instance of a give class.
+def is_same_class(obj, a_class):
+    """Check if an object is exactly an instance of a given class.
 
     Args:
         obj (any): The object to check.
