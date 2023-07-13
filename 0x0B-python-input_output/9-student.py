@@ -2,11 +2,11 @@
 """Defines a class Student."""
 
 
-class student:
+class Student:
     """Represent a student."""
 
-    def __int__(self, first_name, last_name, age):
-        """Initialize a new student.
+    def __init__(self, first_name, last_name, age):
+        """Initialize a new Student.
 
         Args:
             first_name (str): The first name of the student.
@@ -18,5 +18,5 @@ class student:
         self.age = age
 
     def to_json(self):
-        """Get a dictionary representation of the student."""
+        """Get a dictionary representation of the Student."""
         return self.__dict__
